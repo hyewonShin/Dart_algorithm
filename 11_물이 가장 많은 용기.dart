@@ -1,3 +1,5 @@
+import 'dart:math';
+
 int maxArea(List<int> height) {
   int left = 0;
   int right = height.length - 1;
